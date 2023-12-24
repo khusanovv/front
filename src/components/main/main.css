@@ -185,11 +185,17 @@ body {
 .card-wrapper{
   border-radius: 10px !important;
   background-color: #F7F6FF !important;
+
+}
+.card-wrapper--all{
+  
+  vertical-align: middle;
 }
 .card_header{
   font-weight: bold !;
   font-style: 24px !important;
 }
+
 .card-btn{
   text-align: center;
   width: 90%;
@@ -200,6 +206,10 @@ body {
   margin-bottom: 20px !important;
   margin-left: 20px !important;
 }
+.card-btn--all{
+ margin-top: 35% !important;
+}
+
 
 
 

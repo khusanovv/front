@@ -137,27 +137,11 @@ const Works = () => {
                             </Button>
                         </CardActions>
                     </Card>
-                    <Card className='card-wrapper' sx={{ mt: 5, minWidth:350, maxWidth: 354 }}>
-                        <CardHeader
-                            className='card_header'
-                            avatar={
-                                <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
-                                    R
-                                </Avatar>
-                            }
-                           
-                            title="Сделать дизайн интернет-магазина"
-                        />
-                        <CardContent>
-                            <Typography variant="body2" color="text.secondary">
-                                This impressive paella is a perfect party dish and a fun meal to cook
-                                together with your guests. Add 1 cup of frozen peas along with the mussels,
-                                if you like.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed leo at hendrerit dictum diam, enim. Dolor in imperdiet ultrices mauris. Est vitae vulputate est nec cras.
-                            </Typography>
-                        </CardContent>
+                    <Card className='card-wrapper card-wrapper--all' sx={{ mt: 5, minWidth:350, maxWidth: 354 }}>
+                        
                         <CardActions disableSpacing>
-                            <Button className='card-btn' variant="outlined">
-                                Посмотреть
+                            <Button className='card-btn card-btn--all' variant="outlined">
+                            Смотреть все ворки
                             </Button>
                         </CardActions>
                     </Card>
