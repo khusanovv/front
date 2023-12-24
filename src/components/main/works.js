@@ -6,6 +6,7 @@ import CardContent from '@mui/material/CardContent';
 import CardActions from '@mui/material/CardActions';
 import Avatar from '@mui/material/Avatar';
 import { red } from '@mui/material/colors';
+import { Link } from 'react-router-dom';
 
 
 
@@ -139,10 +140,12 @@ const Works = () => {
                     </Card>
                     <Card className='card-wrapper card-wrapper--all' sx={{ mt: 5, minWidth:350, maxWidth: 354 }}>
                         
-                        <CardActions disableSpacing>
-                            <Button className='card-btn card-btn--all' variant="outlined">
-                            Смотреть все ворки
-                            </Button>
+                        <CardActions  disableSpacing>
+                            <Link to='/works'>
+                                <Typography variant='h4'>
+                                     Смотреть все ворки
+                                </Typography>
+                            </Link>
                         </CardActions>
                     </Card>
                 </div>

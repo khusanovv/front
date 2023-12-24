@@ -188,7 +188,9 @@ body {
 
 }
 .card-wrapper--all{
-  
+  display: flex;
+  align-content: center;
+  align-items: center;
   vertical-align: middle;
 }
 .card_header{
