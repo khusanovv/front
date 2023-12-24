@@ -50,7 +50,7 @@ const Works = () => {
                                 </Avatar>
                             }
                            
-                            title="Сделать дизайн интернет-магазина"
+                            title="Верстка landing page"
                         />
                         <CardContent>
                             <Typography variant="body2" color="text.secondary">
@@ -74,7 +74,7 @@ const Works = () => {
                                 </Avatar>
                             }
                            
-                            title="Сделать дизайн интернет-магазина"
+                            title="Сделать дизайн сайта-каталога и посадить на какой нибудь ко..."
                         />
                         <CardContent>
                             <Typography variant="body2" color="text.secondary">
@@ -98,7 +98,7 @@ const Works = () => {
                                 </Avatar>
                             }
                            
-                            title="Сделать дизайн интернет-магазина"
+                            title="Продвижение instagram "
                         />
                         <CardContent>
                             <Typography variant="body2" color="text.secondary">
@@ -122,7 +122,7 @@ const Works = () => {
                                 </Avatar>
                             }
                            
-                            title="Сделать дизайн интернет-магазина"
+                            title="Срочно! Нужен веб дизайнер!"
                         />
                         <CardContent>
                             <Typography variant="body2" color="text.secondary">
