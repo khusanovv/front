@@ -140,9 +140,9 @@ const Works = () => {
                     </Card>
                     <Card className='card-wrapper card-wrapper--all' sx={{ mt: 5, minWidth:350, maxWidth: 354 }}>
                         
-                        <CardActions  disableSpacing>
+                        <CardActions className='card-wrapper-title'  disableSpacing>
                             <Link to='/works'>
-                                <Typography variant='h4'>
+                                <Typography  variant='h5'>
                                      Смотреть все ворки
                                 </Typography>
                             </Link>

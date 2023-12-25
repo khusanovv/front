@@ -192,6 +192,7 @@ body {
   align-content: center;
   align-items: center;
   vertical-align: middle;
+  background-color: #F2F0FE !important;
 }
 .card_header{
   font-weight: bold !;
@@ -210,6 +211,15 @@ body {
 }
 .card-btn--all{
  margin-top: 35% !important;
+}
+.card-wrapper-title{
+  display: flex;
+  align-content: center;
+}
+.card-wrapper-title a{
+  color:  #1DBF73;
+  text-decoration: none !important;
+  margin-left: 40px; 
 }
 
 
