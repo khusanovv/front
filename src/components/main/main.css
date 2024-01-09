@@ -139,6 +139,7 @@ body {
   margin-top: -180px;
   font-family: Montserrat;
   font-size: 16px;
+  text-transform: none !important;
 }
 .category_wrapper{
   margin-top: 30px !important;
@@ -154,6 +155,7 @@ body {
   font-weight: 400 !important;
   transition: all 0.5s !important;
   margin-top: -8px !important;
+  text-transform: none !important;
 }
 .category_item:hover{
     color: #1DBF73 !important;
