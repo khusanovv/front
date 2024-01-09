@@ -25,7 +25,9 @@ const Main = () => {
               <li className="link-item">Создать заказ</li>
             </ul>
             <Button className="nav-btn">Регистрация</Button>
-            <Button variant="contained" className="nav-btn nav-btn__login">Войти</Button>
+           <Link to='/login'>
+             <Button variant="contained" className="nav-btn nav-btn__login">Войти</Button>
+           </Link>
 
           </div>
         </div>
