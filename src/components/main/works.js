@@ -141,7 +141,7 @@ const Works = () => {
                     <Card className='card-wrapper card-wrapper--all' sx={{ mt: 5, minWidth:350, maxWidth: 354 }}>
                         
                         <CardActions className='card-wrapper-title'  disableSpacing>
-                            <Link to='/works'>
+                            <Link to='/work'>
                                 <Typography  variant='h5'>
                                      Смотреть все ворки
                                 </Typography>

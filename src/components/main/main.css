@@ -2,6 +2,9 @@ body {
   background-color: #F7F6FF;
   margin: 0;
 }
+body::-webkit-scrollbar{
+  display: none;
+}
 a{
   text-decoration: none;
   color: #000;
@@ -229,6 +232,10 @@ a{
   margin-left: 40px; 
 }
 
+.card-btn:hover{
+  background-color: #1DBF73 !important;
+  color: #fff !important;
+}
 
 
 

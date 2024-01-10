@@ -18,6 +18,9 @@ const Exchange = () => {
             Ищите и находите подходящую работу среди <span className='title--span'>10,000+</span> проектов и покажите на что Вы способны!
             </h2>
             <Search />
+            <h2 className='exchange-footer'>
+            Ниже все заказы по <span>дизайну</span> <br/><br/> <span>▼</span>
+            </h2>
           </div>
 
       </Container>

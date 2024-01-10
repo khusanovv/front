@@ -17,10 +17,18 @@ const Navbar = () => {
               <li className="link-item">
                 <Link to='/exchange'>Биржа</Link>
               </li>
-              <li className="link-item">Ворки</li>
-              <li className="link-item">Конкурсы</li>
-              <li className="link-item">Создать</li>
-              <li className="link-item">Создать заказ</li>
+              <li className="link-item">
+                <Link to='/work'>Ворки</Link>
+              </li>
+              <li className="link-item">
+                <Link to='/competitions'>Конкурсы</Link>
+              </li>
+              <li className="link-item">
+                <Link to='/create-work' >Создать</Link>
+              </li>
+              <li className="link-item">
+                <Link to='/create-order'>Создать заказ</Link>
+              </li>
             </ul>
             <Button className="nav-btn">Регистрация</Button>
            <Link to='/login'>
