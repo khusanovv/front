@@ -2,6 +2,10 @@ body {
   background-color: #F7F6FF;
   margin: 0;
 }
+a{
+  text-decoration: none;
+  color: #000;
+}
 
 .header {
   width: 100%;

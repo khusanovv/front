@@ -39,3 +39,10 @@
     border: 0;
     cursor: pointer;
 }
+.inputs-footer{
+    text-align: center;
+}
+.inputs-register{
+    color: var(--orange, #FBA457);
+    margin-top: 20px;
+}

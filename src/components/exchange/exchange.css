@@ -1,0 +1,14 @@
+.exchange{
+    margin-top: 80px;
+}
+.exchange-title{
+    color: var(--black, #222);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    max-width: 845px;
+    margin: 0 auto;
+    }
+.title--span{
+    color: #1DBF73;
+}    

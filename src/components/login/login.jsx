@@ -4,21 +4,22 @@ import loginLogo from '../../image/login_logo.png'
 import { Input as BaseInput } from '@mui/base/Input';
 import { styled } from '@mui/system';
 import './login.css'
+import { Link } from 'react-router-dom';
 
 const Login = () => {
     const Input = React.forwardRef(function CustomInput(props, ref) {
         return <BaseInput slots={{ input: InputElement }} {...props} ref={ref} />;
-      });
-      
+    });
+
     const blue = {
         100: '#DAECFF',
         200: '#80BFFF',
         400: '#3399FF',
         500: '#007FFF',
         600: '#0072E5',
-      };
-      
-      const grey = {
+    };
+
+    const grey = {
         50: '#F3F6F9',
         100: '#E5EAF2',
         200: '#DAE2ED',
@@ -29,9 +30,9 @@ const Login = () => {
         700: '#434D5B',
         800: '#303740',
         900: '#1C2025',
-      };
-      
-      const InputElement = styled('input')(
+    };
+
+    const InputElement = styled('input')(
         ({ theme }) => `
         width: 500px;
         height: 46px;
@@ -60,13 +61,15 @@ const Login = () => {
           outline: 0;
         }
       `,
-      );
+    );
     return (
         <>
             <div className="login">
                 <div className="login-form">
                     <div className="form-logo">
+                       <Link to='/'>
                         <img src={loginLogo} alt="" />
+                       </Link>
                     </div>
                     <div className="form-inputs">
                         <p className='inputs-info'>
@@ -82,7 +85,11 @@ const Login = () => {
                         <button className="inputs-btn">
                             Отправить код
                         </button>
+                        <p className='inputs-footer'>
+                            Вспомнили пароль? <span className='inputs-register'>Войдите</span>
+                        </p>
                     </div>
+
                 </div>
                 <div className="login-img">
                     <div className="login-image"></div>
