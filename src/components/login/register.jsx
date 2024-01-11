@@ -82,6 +82,14 @@ const Register = () => {
                         <Input aria-label="Demo input" placeholder="E-mail" />
                         <p>Код </p>
                         <Input aria-label="Demo input" placeholder="Код из почты " />
+                        <p>E-mail</p>
+                        <Input aria-label="Demo input" placeholder="E-mail" />
+                        <p>Код </p>
+                        <Input aria-label="Demo input" placeholder="Код из почты " />
+                        <p>E-mail</p>
+                        <Input aria-label="Demo input" placeholder="E-mail" />
+                        <p>Код </p>
+                        <Input aria-label="Demo input" placeholder="Код из почты " />
                         <button className="inputs-btn">
                             Отправить код
                         </button>
