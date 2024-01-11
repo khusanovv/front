@@ -91,10 +91,10 @@ const Register = () => {
                         <p>Код </p>
                         <Input aria-label="Demo input" placeholder="Код из почты " />
                         <button className="inputs-btn">
-                            Отправить код
+                             Зарегестрироваться
                         </button>
                         <p className='inputs-footer'>
-                            Вспомнили пароль? <span className='inputs-register'>Войдите</span>
+                        У Вас есть аккаунт? <span className='inputs-register'>Войдите</span>
                         </p>
                     </div>
 
