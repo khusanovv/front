@@ -12,14 +12,19 @@
     background-size: cover;
     object-fit: cover;
 }
+
 .login-form{
     margin: 0 auto;
     margin-top: 20px;
 }
+
 .form-inputs{
     margin-top: 203px;
     max-width:509px;
     
+}
+.register--form{
+ margin-top: 32px;   
 }
 .inputs-info{
     color: var(--800, #2D3748);
@@ -38,6 +43,9 @@
     flex-shrink: 0;
     border: 0;
     cursor: pointer;
+}
+.regirter--inputs-btn{
+    margin-top: 22px;
 }
 .inputs-footer{
     text-align: center;

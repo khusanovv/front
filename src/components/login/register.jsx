@@ -35,12 +35,12 @@ const Register = () => {
     const InputElement = styled('input')(
         ({ theme }) => `
         width: 500px;
-        height: 46px;
+        height: 20px;
         font-family: 'IBM Plex Sans', sans-serif;
         font-size: 0.875rem;
         font-weight: 400;
         line-height: 1.5;
-        padding: 8px 12px;
+        padding: 2px 12px;
         margin-top : -10px;
         color: ${theme.palette.mode === 'dark' ? grey[300] : grey[900]};
         background: ${theme.palette.mode === 'dark' ? grey[900] : '#fff'};
@@ -71,26 +71,26 @@ const Register = () => {
                         <img src={loginLogo} alt="" />
                        </Link>
                     </div>
-                    <div className="form-inputs">
+                    <div className="form-inputs register--form">
                         <p className='inputs-info'>
-                            Мы отправим Вам код для восстановления пароля
+                        Давайте создадим Вам аккаунт
                         </p>
                         <h2 className="inputs-title">
-                            Заполните поле ниже
+                        Заполните все поля
                         </h2>
+                        <p>Ваше имя</p>
+                        <Input aria-label="Demo input" placeholder="имя" />
+                        <p>Ваше фамилия </p>
+                        <Input aria-label="Demo input" placeholder="фамилия " />
                         <p>E-mail</p>
                         <Input aria-label="Demo input" placeholder="E-mail" />
-                        <p>Код </p>
-                        <Input aria-label="Demo input" placeholder="Код из почты " />
-                        <p>E-mail</p>
-                        <Input aria-label="Demo input" placeholder="E-mail" />
-                        <p>Код </p>
-                        <Input aria-label="Demo input" placeholder="Код из почты " />
-                        <p>E-mail</p>
-                        <Input aria-label="Demo input" placeholder="E-mail" />
-                        <p>Код </p>
-                        <Input aria-label="Demo input" placeholder="Код из почты " />
-                        <button className="inputs-btn">
+                        <p>Телефон номер </p>
+                        <Input aria-label="Demo input" placeholder="Телефон номер " />
+                        <p>Пароль</p>
+                        <Input aria-label="Demo input" placeholder="Пароль" />
+                        <p>Повтарите пароль </p>
+                        <Input aria-label="Demo input" placeholder="Повтарите пароль " />
+                        <button className="inputs-btn regirter--inputs-btn">
                              Зарегестрироваться
                         </button>
                         <p className='inputs-footer'>
