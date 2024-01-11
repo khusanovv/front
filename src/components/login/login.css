@@ -54,3 +54,6 @@
     color: var(--orange, #FBA457);
     margin-top: 20px;
 }
+.inputs-register--link{
+    color: #FBA457 !important;
+}

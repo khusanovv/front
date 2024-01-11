@@ -90,11 +90,15 @@ const Register = () => {
                         <Input aria-label="Demo input" placeholder="Пароль" />
                         <p>Повтарите пароль </p>
                         <Input aria-label="Demo input" placeholder="Повтарите пароль " />
+                        <Link to='/profil'>
                         <button className="inputs-btn regirter--inputs-btn">
                              Зарегестрироваться
                         </button>
+                        </Link>
                         <p className='inputs-footer'>
-                        У Вас есть аккаунт? <span className='inputs-register'>Войдите</span>
+                        У Вас есть аккаунт? <span className='inputs-register'>
+                            <Link className='inputs-register--link' to='/login'>Войдите</Link>
+                        </span>
                         </p>
                     </div>
 

@@ -8,6 +8,7 @@ import CreateWork from '../create_work/CreateWork'
 import Work from '../work/work'
 import CreateOrder from '../create_order/CreateOrder'
 import Register from '../login/register'
+import Profil from '../profil/profil'
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Route path='/work' element={<Work />}></Route>
         <Route path='/create-work' element={ <CreateWork />}></Route>
         <Route path='/create-order' element={  <CreateOrder />}></Route>
+        <Route path='/profil' element={<Profil />}></Route>
       </Routes>
     </Box>
   )
