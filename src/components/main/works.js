@@ -119,7 +119,7 @@ const Works = () => {
                             className='card_header'
                             avatar={
                                 <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
-                                    R
+                                    B
                                 </Avatar>
                             }
                            
