@@ -30,7 +30,9 @@ const Navbar = () => {
                 <Link to='/create-order'>Создать заказ</Link>
               </li>
             </ul>
-            <Button className="nav-btn">Регистрация</Button>
+            <Button className="nav-btn">
+              <Link to='/register'>Регистрация</Link>
+            </Button>
            <Link to='/login'>
              <Button variant="contained" className="nav-btn nav-btn__login">Войти</Button>
            </Link>
