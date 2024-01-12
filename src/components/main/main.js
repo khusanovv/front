@@ -6,6 +6,7 @@ import MainHero from './main_hero'
 import Works from './works'
 import Navbar from '../navbar/Navbar'
 import MainWorkTap from './mainWorkTap'
+import MainBiznes from './mainBiznes'
 const Main = () => {
   return (
     <>
@@ -17,6 +18,7 @@ const Main = () => {
       <MainHero />
       <Works />
       <MainWorkTap />
+      <MainBiznes />
       <Footer />
     </>
 
