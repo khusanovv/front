@@ -5,6 +5,7 @@ import Footer from '../footer/footer'
 import MainHero from './main_hero'
 import Works from './works'
 import Navbar from '../navbar/Navbar'
+import MainWorkTap from './mainWorkTap'
 const Main = () => {
   return (
     <>
@@ -15,6 +16,7 @@ const Main = () => {
       </Container>
       <MainHero />
       <Works />
+      <MainWorkTap />
       <Footer />
     </>
 

@@ -238,6 +238,28 @@ a{
 }
 
 
+/* Main workTap */
+
+.worktap{
+  margin-top: 80px;
+}
+.worktap-list{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 61px;
+}
+.list-item{
+  max-width: 389px;
+  margin-top: 30px;
+}
+.item-title{
+  font-size: 18px;
+}
+.item-info{
+  color: #222222b1;
+}
+
 
 @media screen and (max-width: 1100px) {
   .header {
