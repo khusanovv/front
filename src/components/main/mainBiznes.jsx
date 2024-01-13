@@ -6,6 +6,7 @@ const MainBiznes = () => {
   return (
     <>  
         <div className="main-biznes">
+            {/* Just edit */}
             
            {/* <Container>
            <div className="biznes-wrapper">
