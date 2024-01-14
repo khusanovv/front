@@ -82,9 +82,11 @@ const Login = () => {
                         <Input aria-label="Demo input" placeholder="E-mail" />
                         <p>Код </p>
                         <Input aria-label="Demo input" placeholder="Код из почты " />
-                        <button className="inputs-btn">
-                            Отправить код
-                        </button>
+                        <Link to='/profil'>
+                            <button className="inputs-btn">
+                                Отправить код
+                            </button>
+                        </Link>
                         <p className='inputs-footer'>
                             Вспомнили пароль? <span className='inputs-register'>Войдите</span>
                         </p>
