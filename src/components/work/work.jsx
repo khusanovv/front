@@ -7,7 +7,7 @@ const Work = () => {
     <>
         <Container>
             <Navbar />
-            <div>Work</div>
+            <div>Boburshoh Khusanov</div>
         </Container>
     </>
   )
