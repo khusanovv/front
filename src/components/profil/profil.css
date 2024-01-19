@@ -1,3 +1,16 @@
 .profil{
     display: flex;
 }
+.profil-category{
+    color: var(--orange, #FBA457);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+}
+.profil-title{
+    color: var(--green, #1DBF73);
+
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 600;
+}

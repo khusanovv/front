@@ -12,7 +12,9 @@ const Profil = () => {
       <Container>
         <div className="profil">
           <div className="profil-main">
-            <div className="profil-category"></div>
+            <div className="profil-category">
+               Дизайнер 
+            </div>
             <h2 className="profil-title">Ернар Ибрагимов</h2>
             <p className="profil-info">Работаю дизайнером с 1999 года.
               Был опыт в газетах, журналах, типографиях, рекламных агентствах, издательских домах... Порядка 8 лет, занимаюсь логотипами и фирменными стилями.</p>
