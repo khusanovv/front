@@ -3,6 +3,7 @@ import React from 'react'
 import Navbar from '../navbar/Navbar'
 import profilImage from '../../image/profil.png'
 import "./profil.css"
+import sectionImage from '../../image/section.png'
 
 const Profil = () => {
   return (
@@ -13,7 +14,7 @@ const Profil = () => {
           <div className="profil-main">
             <div className="profil-category"></div>
             <h2 className="profil-title">Ернар Ибрагимов</h2>
-            <p className="profil info">Работаю дизайнером с 1999 года.
+            <p className="profil-info">Работаю дизайнером с 1999 года.
               Был опыт в газетах, журналах, типографиях, рекламных агентствах, издательских домах... Порядка 8 лет, занимаюсь логотипами и фирменными стилями.</p>
             <div className="profil-skills"></div>
             Figma
@@ -27,7 +28,9 @@ const Profil = () => {
            <img src={profilImage} alt="" />
 
           </div>
-
+        </div>
+        <div className="profil-section">
+              <img src={sectionImage} alt="" />
         </div>
       </Container>
     </Container>
