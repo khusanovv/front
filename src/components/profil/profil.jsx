@@ -1,7 +1,8 @@
 import { Container } from '@mui/material'
 import React from 'react'
 import Navbar from '../navbar/Navbar'
-import profilImage from '../../../public/profil.png'
+import profilImage from '../../image/profil.png'
+import "./profil.css"
 
 const Profil = () => {
   return (
