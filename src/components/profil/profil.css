@@ -1,6 +1,9 @@
 .profil{
     display: flex;
 }
+.profil-main{
+    max-width: 600px;
+}
 .profil-category{
     color: var(--orange, #FBA457);
     font-family: Montserrat;
