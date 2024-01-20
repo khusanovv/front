@@ -1,5 +1,6 @@
 .profil{
     display: flex;
+    gap: 100px;
 }
 .profil-main{
     max-width: 600px;
@@ -16,4 +17,12 @@
     font-family: Montserrat;
     font-size: 36px;
     font-weight: 600;
+}
+.profil-skills{
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: -30px;
+    margin-top: 40px;
+    gap: 25px;
 }
