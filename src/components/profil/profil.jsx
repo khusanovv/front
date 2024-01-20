@@ -18,13 +18,16 @@ const Profil = () => {
             <h2 className="profil-title">Ернар Ибрагимов</h2>
             <p className="profil-info">Работаю дизайнером с 1999 года.<br />
               Был опыт в газетах, журналах, типографиях, рекламных агентствах, издательских домах... Порядка 8 лет, занимаюсь логотипами и фирменными стилями.</p>
-            <div className="profil-skills"></div>
-            Figma
-            Adobe photoshop
-            Adobe illustrator
-            Corel draw
-            Adobe After Effects
-            HTML/CSS
+            <ul className="profil-skills">
+              <li className="skills-item">Figma</li>
+              <li className="skills-item"> Adobe photoshop</li>
+              <li className="skills-item"> Adobe illustrator</li>
+              <li className="skills-item">  Corel draw</li>
+              <li className="skills-item"> Adobe After Effects</li>
+              <li className="skills-item">HTML/CSS</li>
+              
+            </ul>
+            
           </div>
           <div className="profil-img">
            <img src={profilImage} alt="" />
