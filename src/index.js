@@ -17,4 +17,4 @@ root.render(
   </React.StrictMode>
 );
 
-// I get sertificate for completed course. Date:27.01.2024
+// I get sertificate for completed course. Date:27.01.2024 Boburshoh Khusanov
